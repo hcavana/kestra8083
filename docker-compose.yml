@@ -56,8 +56,7 @@ services:
           tasks:
             tmpDir:
               path: /tmp/kestra-wd/tmp
-          
-    ports:
+           ports:
       - "8080:8080"
       - "8083:8083"
     depends_on:
